@@ -1,0 +1,242 @@
+
+@media only screen and (max-width:360px){
+    body{
+        width: 360px;
+    }
+    .head .logo img{
+        height: 38px;
+        width: 35px;
+        margin: 0px;
+        float: left;
+    }.heading{
+        margin-top: 0px;
+        padding-left: 5px;
+        height: 10px;
+    }.heading h2{
+        font-size: 10px;
+        font-weight: 600;
+        float: right;
+    }.heading p{
+        display: none;
+    }
+    .line hr.yellow{
+        position: absolute;
+        top: 46px;
+        height: 4px;
+    }
+    .line hr.blue{
+        position: absolute;
+        top: 46px;
+        height: 4px;
+    }.container .img img{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 8%;
+    }.container .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 19%;
+    }
+    .box .box-1 h1,.box .box-2 h1,.box .box-3 h1{
+        font-size: 16px;
+    }
+    .box .box-1 ,.box .box-2 ,.box .box-3 {
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+    }.box-1 li{
+        position: absolute;
+        left: 4%;
+        top: 23%;
+    }.box-2 li{
+        position: absolute;
+        left: 4%;
+        top: 54%;
+    }.box-3 li{
+        position: absolute;
+        left: 4%;
+        top: 88%;
+    }
+
+
+    /*---------------part----------------------*/
+
+    .part{
+        display: flex;
+        flex-direction: column;
+    }.part .part-1{
+        width:346px;
+        position: absolute;
+        left: 2%;
+        margin-top: 3px;
+        top: 60%;
+    }.bigbox-1 .line{
+        width: 86%;
+    }.bigbox-1 .box{
+        display: grid;
+        grid-template-columns: repeat(3,20%);
+    }.bigbox-1 .box .box-1,.bigbox-1 .box .box-2 ,.bigbox-1 .box .box-3 ,.bigbox-1 .box .box-4 ,.bigbox-1 .box .box-5 {
+        height: 6%;
+    }.bigbox-1 .box .box-1{
+        position: absolute;
+        left: 1%;
+        font-size: 9px;
+    }.bigbox-1 .box .box-2{
+        position: absolute;
+        left: 33%;
+    }.bigbox-1 .box .box-3{
+        position: absolute;
+        left: 61%;
+        width: 25%;
+    }.bigbox-1 .box .box-4{
+        height: 6%;
+            position: absolute;
+            left: 2%;
+            font-size: 9px;
+        
+        
+    }.bigbox-1 .box .box-5{
+        
+        font-size: 9px;
+        height: 6%;
+    }
+    .box .box-1 p ,.box-2 p,.box-3 p,.box-4 p,.box-5 p{
+        font-size: 10px;
+        text-align: center;
+    }.box .box-1 button,.box .box-2 button,.box .box-3 button,.box .box-4 button,.box .box-5 button{
+        padding: 1px 15px;
+        font-weight: 200;
+        margin: 1px;
+        align-items: center;
+    }.box .box-1 button{
+        position: absolute;
+        left: 6%;
+        top: 46%;
+    }.box .box-2 button{
+        position: absolute;
+        left: 6%;
+        top: 50%;
+    }.box .box-3 button{
+        position: absolute;
+        left: -1%;
+        top: 53%;
+    }.bigbox-2 .line{
+        width: 86%;
+    }.bigbox-2 .box .box-1{
+        left: 2%;
+        height: 8%;
+    }.bigbox-2 .box .box-2{
+        left: 56%;
+        height: 8%;
+    }.bigbox-2 .box .box-2 .text{
+        display: none;
+    } 
+    
+    .bigbox-3 .box{
+        display: grid;
+        grid-template-columns: repeat(3,19%);
+        justify-content: space-between;
+    }.bigbox-3 .box .box-1,.bigbox-3 .box .box-2 ,.bigbox-3 .box .box-3 ,.bigbox-3 .box .box-4 ,.bigbox-3 .box .box-5 {
+        height: 6%;
+    }.bigbox-3 .line{
+        width: 86%;
+    }.bigbox-3 .box .box-1 button,.bigbox-3 .box .box-2 button,.bigbox-3 .box .box-3 button,.bigbox-3 .box .box-4 button,.bigbox-3 .box .box-5 button,.bigbox-3 .box .box-6 button{
+        padding: 1px 15px;
+        font-weight: 200;
+        margin: 1px;
+        align-items: center;
+    }.bigbox-3 .box .box-6{
+        font-size: 10px;
+        height: 6%;
+    }.bigbox-3 .box .box-1{
+        position: absolute;
+        left: 1%;
+        font-size: 9px;
+    }.bigbox-3 .box .box-2{
+        position: absolute;
+        left: 33%;
+        text-align:justify;
+    }.bigbox-3 .box .box-2 button{
+        position: absolute;
+        left: -1%;
+    }
+    .bigbox-3 .box .box-3{
+        position: absolute;
+        left: 61%;
+        width: 25%;
+    }
+
+
+
+    .part .part-2{
+        width:331px;
+        height: 433px;
+        position: absolute;
+        left: 2%;
+        margin-top: 3px;
+        top: 209%;
+
+    }.part-2 .list ul{
+        overflow: auto;
+        
+    }.part-2 .text .line{   
+        top: 7%;
+        width: 86%;
+    }
+
+    .foot{
+        top: 279%;
+        width: 100vw;
+}.foot p{
+    left: 3%;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
