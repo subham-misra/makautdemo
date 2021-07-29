@@ -1,5 +1,6 @@
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:360px)
+{
     body{
         width: 360px;
     }
@@ -196,47 +197,4 @@
     left: 3%;
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+}
